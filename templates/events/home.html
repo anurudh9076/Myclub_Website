@@ -1,0 +1,17 @@
+{% extends 'events/base.html' %}
+
+{% block content %}
+
+
+<center>
+
+As of {{time}}
+<br> <br><br>
+
+{{cal|safe}}
+<br><br><br>
+current year (c) {{current_year}}
+
+</center>
+
+{% endblock %}
